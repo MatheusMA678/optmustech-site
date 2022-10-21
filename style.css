@@ -80,44 +80,34 @@ button#signUp:hover {
 
 /* CABEÇALHO */
 
-.cabecalho {
+.about-us {
+    padding: 7rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
-    padding: 80px;
+    gap: 1rem;
 }
 
-.cabecalho h4 {
-    font-weight: 600;
-    font-size: 16px;
+.about-us span {
     color: var(--cor0);
 }
 
-.m-container h1 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 60px;
-    margin-bottom: 20px;
+.about-us h1 {
+    font-size: 2rem;
 }
 
-.m-content {
-    width: 792px;
-    text-align: center;
-}
-
-.m-content p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+.about-us p {
     color: var(--cor2);
+    max-width: 50%;
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 /* MÉTRICAS */
 
 
 
-.metric-content {
+.metric-container {
     display: flex;
     justify-content: center;
     
@@ -127,21 +117,21 @@ button#signUp:hover {
     width: 280px;
 }
 
-.metric-itens .number-text .number {
+.number {
     font-weight: 600;
     font-size: 60px;
     line-height: 72px;
     color: var(--cor0);
 }
 
-.metric-itens .number-text .text h3{
+.text h3{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: var(--cor4);
 }
 
-.metric-itens .number-text .text p {
+.text p {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
